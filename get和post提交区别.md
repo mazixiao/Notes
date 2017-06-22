@@ -43,7 +43,7 @@ text/plain： 数据以纯文本形式(text/json/xml/html)进行编码，其中�
 
 
 
-## ajax发送数据的方式有几种
+
 
 
 
