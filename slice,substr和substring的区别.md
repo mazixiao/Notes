@@ -1,4 +1,4 @@
-## eee
+## slice、substr、substring用法（字符串截取）
 
 ```
 <!DOCTYPE html>
