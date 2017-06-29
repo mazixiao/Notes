@@ -84,10 +84,54 @@
 /* css的注释 */
 
 
-// js的注释
+// js的注释(单行)      /* */(多行)
 ```
 
 
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>h5代码实现布局</title>
+	<style>
+		header {
+			height: 100px;
+			background: red
+		}
+		section {
+			height: 200px;
+			overflow: hidden;
+		}
+		section nav {
+			float: left;
+			height: 200px;
+			width: 200px;
+			background: green;
+		}
+		section article {
+			/* float: right; */
+			height: 100px;
+			background: yellow;
+		}
+		section footer {
+			/* float: right; */
+			height: 100px;
+			background: blue;
+		}
+	</style>
+</head>
+<body>
+<header>头</header>	
+<section>
+	<nav>导航</nav>
+	<article>内容</article>
+	<footer>脚</footer>
+</section>
+</body>
+</html>
+```
 
 
 
