@@ -17,6 +17,10 @@
 
 	console.log(a.join(" ")) //1 2 3 4
 	
+	//除了join(), toString(), toLocaleString()也可以转换成字符串(格式不太一样)
+	console.log(a.toString(" ")) //1,2,3,4
+	console.log(a.toLocaleString(" ")) //1,2,3,4
+	
 </script>	
 </body>
 </html>
