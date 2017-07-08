@@ -26,6 +26,11 @@
 	console.log(b.splice(3, 3)); //[4, 5, 6]
 	console.log(b); //[1, 2, 3, 7, 8]
 
+
+	var c = [1, 2, 3, 4];
+	console.log(c.splice(1, 2, "迪迪", "啦啦")); // [2, 3] 从下标为1开始，朝后数2个数,后面 "迪迪"和"啦啦"或更多的参数将会被添加到该数组
+	console.log(c)  // [1, "迪迪", "啦啦", 4] 
+
 </script>	
 </body>
 </html>
